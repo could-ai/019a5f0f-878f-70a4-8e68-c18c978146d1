@@ -1,0 +1,15 @@
+import 'package:flutter/material.dart';
+
+class EarnScreen extends StatelessWidget {
+  const EarnScreen({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return const Center(
+      child: Text(
+        'Earn Screen',
+        style: TextStyle(fontSize: 24),
+      ),
+    );
+  }
+}
